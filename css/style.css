@@ -1,0 +1,275 @@
+* {
+    font-family: verdana;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    background-color: #171C1F;
+}
+
+#sonuc {
+    padding: 5px;
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    visibility: hidden;
+}
+
+#skor {
+    width: 10%;
+    top: 25%;
+    position: absolute;
+    left: 45%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#gizle {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    background-color: yellow;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute; 
+    border-style: none;
+    right: 20px;
+    top: 250px; 
+    visibility: hidden;    
+}
+
+#sol {
+    background: url(../img/hidden.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    border-style: none;
+    left: 25px;
+    top: 225px; 
+    visibility: hidden;  
+}
+
+#yukari {
+    background: url(../img/hidden.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    border-style: none;
+    left: 62.5px;
+    top: 175px; 
+    visibility: hidden;  
+}
+
+#sag {
+    background: url(../img/hidden.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    border-style: none;
+    left: 100px;
+    top: 225px; 
+    visibility: hidden;  
+}
+
+#asagi {
+    background: url(../img/hidden.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    border-style: none;
+    left: 62.5px;
+    top: 275px; 
+    visibility: hidden;  
+}
+
+
+#basla {
+    visibility: visible;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    background-color: green;
+    border-radius: 50%;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+#zipla {
+    position: absolute; 
+    right: 50px; 
+    top: 225px;
+    background: url(../img/up.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    border-style: none;
+}
+
+#saldir {
+    background: url(../img/attack.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    border-style: none;
+    left: 125px; 
+    top: 225px; 
+    visibility: hidden;
+}
+
+#dog {
+    position: absolute;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 50%;
+    top: ;
+    bottom: 30px;
+    left: 50px;
+    right: ;
+    visibility: hidden;
+    border-style: none;
+}
+
+       .fadeIn {
+  -webkit-animation-name: dog;
+  animation-name: dog;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes dog {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes dog {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  } 
+
+
+/*MERMİ ANİMATE */
+.top-animate{
+    animation:top 2s linear infinite;
+}
+
+.topp-animate{
+    animation:topp 2s linear infinite;
+}
+
+@keyframes top{
+    0%{left:100px;}
+    100%{left:1100px}
+}
+
+@keyframes topp{
+    0%{left:500px;}
+    100%{left:-1000px}
+}
+
+.dogg-animate{
+    animation:top 1s linear infinite;
+}
+
+@keyframes dog{
+    0%{left:100px;}
+    100%{left:500px}
+}
+
+#kazandin {
+
+}
+
+#kaybettin {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+#kazandin {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+
+#engel {
+    position: absolute;
+    padding: 20px;
+    background-color: red;
+    border-radius: 50%;
+    bottom:;
+    top: ;
+    border-style: none;
+    left:500px;
+    display: none;
+}
+
+#top {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: ;
+    top: ;
+    background-color: blue;
+    border-radius: 50%;
+    left: 50px;
+    display: none;
+}
+
+#topp {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: ;
+    top: ;
+    background-color: red;
+    border-radius: 50%;
+    left: 500px;
+    display: none;
+}
+
+#restat {
+    visibility: hidden;
+    border-style: none;
+    background-color: orange;
+    border-radius: 50%;
+    color: #fff;
+    width: 15%;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    right: 42.5%;
+    bottom: 150px;
+}
